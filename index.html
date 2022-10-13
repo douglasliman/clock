@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relogio</title>
+            <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="time">
+        <div class="circle" style="--clr:#ff2972">
+            <div class="dots sec_dot"></div>
+            <svg>
+                <circle cx="120" cy="120" r="120" id="ss"></circle>
+            </svg>
+        </div>
+        <div class="circle"  style="--clr:#fee800">
+            <div class="dots min_dot"></div>
+            <svg>
+                <circle cx="100" cy="100" r="100" id="mm"></circle>
+            </svg>
+        </div>
+        <div class="circle"  style="--clr:#04fc43">
+            <div class="dots hr_dot"></div>
+            <svg>
+                <circle cx="80" cy="80" r="80" id="hh"></circle>
+            </svg>
+        </div>
+        <div class="timebx">
+            <div id="hours" style="--c:#04fc43">00</div>
+            <div id="minutes" style="--c:#fee800">00</div>
+            <div id="seconds" style="--c:#ff2972">00</div>
+            <div class="ap" style="--c:#fff"><div id="ampm">AM</div></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
